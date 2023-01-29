@@ -66,7 +66,7 @@ fun TipTimeScreen(){
         Spacer(Modifier.height(16.dp))
 
         EditNumberField(
-            label = R.string.bill_amount,
+            label = R.string.cost_of_service,
             keyboardOptions = KeyboardOptions(
                 keyboardType = KeyboardType.Number,
                 imeAction = ImeAction.Next
